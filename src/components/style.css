@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    background-color: hsl(217 92% 10%);
+    opacity: 1;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    justify-content: end;
+    padding-right: 10rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    color: #c7c9d1;   
+}
+
+.navbar{
+    background-color: hsl(217 100% 97% / 1);
+    display: flex;
+}
+
+.logo{
+    width: 52px;
+    height: 48px;
+    background-color: hsl(212 100% 51% / 1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
