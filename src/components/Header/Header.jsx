@@ -5,9 +5,9 @@ function Header() {
   return (
     <>
       <div className="header">
-        <div className="container">
-        <NavLink><a>Sign in / Guest</a></NavLink>
-        <NavLink><a>Create Account</a></NavLink>
+        <div className="container d-flex justify-content-end column-gap-3">
+        <NavLink>Sign in / Guest</NavLink>
+        <NavLink>Create Account</NavLink>
         </div>
      </div>  
     </>
