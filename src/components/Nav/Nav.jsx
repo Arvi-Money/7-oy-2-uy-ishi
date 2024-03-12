@@ -12,10 +12,10 @@ function Nav() {
                 <p>C</p>
             </div>
             <nav>
-                <NavLink>Home</NavLink>
-                <NavLink>About</NavLink>
-                <NavLink>Products</NavLink>
-                <NavLink>Cart</NavLink>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/about'>About</NavLink>
+                <NavLink to='/products'>Products</NavLink>
+                <NavLink to='/cart'>Cart</NavLink>
             </nav>
             <div className="icons">
                 <img src={moon} alt="" />

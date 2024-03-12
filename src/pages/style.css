@@ -1,3 +1,5 @@
+/* Home page style */
+
 .banner{
     display: flex;
     gap: 6rem;
@@ -52,4 +54,226 @@
     width: 320px;
     height: 416px;
     border-radius: 1rem;
+}
+
+.carousel {
+    width: 496px;
+    height: 28rem;
+    border-radius: 16px;
+    padding: 16px 16px 16px 16px;
+    background-color: hsl(217 92% 10% / 1);
+    display: flex;
+    overflow-x: scroll;
+    font-feature-settings: normal;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+  
+  .carousel_item {
+    margin-right: 16px;
+  }
+
+  .carousel_item:last-child {
+    margin-right: 0;
+  }
+  
+  .carousel_item img{
+    width: 20rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+.featured_products{
+    margin-top: 6rem;
+}
+
+.featured_products h1{
+    letter-spacing: .05em;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #394e6a;
+    padding-bottom: 5px;
+}
+
+.products{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.product{
+    width: 350px;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / .1), 0 8px 10px -6px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    padding: 16px 16px 0px 16px;
+    border-radius: 1rem;
+}
+
+.product img{
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.75rem;
+}
+
+.product .info{
+    padding: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product .info h2{
+    letter-spacing: .05em;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: #394e6a;
+    text-transform: capitalize;
+}
+
+.product .info p{
+    color: #463aa1;
+}
+
+/* About page style */
+
+.about{
+    padding: 5rem 0rem;
+}
+
+.title{
+    column-gap: 1.5rem;
+}
+
+.title h1{
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -.025em;
+    font-weight: 700;
+    color: #394e6a;
+}
+
+.title p{
+    background-color: hsl(212 100% 51% / 1);
+    border-radius: 1rem;
+    padding: 16px 24px;
+    color: #dbe1ff;
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.about .text{
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.125rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #394e6a;
+}
+
+/* About_product page style */
+
+.information{
+    margin: 5rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+}
+
+.information img{
+    width: 100%;
+    height: 24rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.information .data{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.data h1{
+    font-size: 1.85rem;
+    color: #394e6a;
+    text-transform: capitalize;
+}
+
+.data h6{
+    color: #c7c9d1;
+}
+
+.data h5{
+    color: #394e6a;
+    font-weight: 400;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+.data p{
+    padding-top: 16px;
+    line-height: 2rem;
+    color: #394e6a;
+}
+
+.data .colors_div{
+    margin-top: 24px;
+}
+
+.data .colors_div p{
+    color: #394e6a;
+    font-size: 16px;
+    letter-spacing: .05em;
+    font-weight: 500;
+}
+
+.data .colors_div .color{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.colors_div .colors{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.data select{
+    width: 320px;
+    height: 48px;
+    border: 1px solid hsl(247 47% 43% / 1);
+    border-radius: 0.5rem;
+}
+
+.data .btn{
+    width: 115px;
+    height: 48px;
+    margin-top: 32px;
+    font-size: 14px;
+    color: #dbd4ed;
+    background-color: #463aa1;
+    font-weight: 600;
+}
+
+span{
+    color: #394e6a;
+    font-weight: 500;
+    letter-spacing: -.05em;
 }

@@ -43,7 +43,7 @@ nav{
     display: flex;
 }
 
-nav a{
+nav a{  
     color: #394e6a;
     cursor: pointer;
 }
